@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		159B884ECA9F72E40F4B04EA /* Pods_RxInfinite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A4612F375405851E16FFDA /* Pods_RxInfinite.framework */; };
 		9B63C0041EFFA50B008C8DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63C0031EFFA50B008C8DEA /* AppDelegate.swift */; };
 		9B63C0061EFFA50B008C8DEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63C0051EFFA50B008C8DEA /* ViewController.swift */; };
 		9B63C0091EFFA50B008C8DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B63C0071EFFA50B008C8DEA /* Main.storyboard */; };
 		9B63C00B1EFFA50B008C8DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B63C00A1EFFA50B008C8DEA /* Assets.xcassets */; };
 		9B63C00E1EFFA50B008C8DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B63C00C1EFFA50B008C8DEA /* LaunchScreen.storyboard */; };
 		9B63C0191EFFA50B008C8DEA /* RxInfiniteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63C0181EFFA50B008C8DEA /* RxInfiniteUITests.swift */; };
+		9B63C0251EFFA533008C8DEA /* RxInfinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63C0241EFFA533008C8DEA /* RxInfinite.swift */; };
+		FFC211CC8BE38A7D30ABDF53 /* Pods_RxInfiniteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6025AAA30AC511352D9542 /* Pods_RxInfiniteUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39A4612F375405851E16FFDA /* Pods_RxInfinite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxInfinite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6025AAA30AC511352D9542 /* Pods_RxInfiniteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxInfiniteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE5D5FEBBA94F48408E6FAC /* Pods-RxInfiniteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxInfiniteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxInfiniteUITests/Pods-RxInfiniteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B8E76181E381BD96BBC36FF /* Pods-RxInfiniteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxInfiniteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxInfiniteUITests/Pods-RxInfiniteUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B63C0001EFFA50B008C8DEA /* RxInfinite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxInfinite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B63C0031EFFA50B008C8DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B63C0051EFFA50B008C8DEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,9 @@
 		9B63C0141EFFA50B008C8DEA /* RxInfiniteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxInfiniteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B63C0181EFFA50B008C8DEA /* RxInfiniteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxInfiniteUITests.swift; sourceTree = "<group>"; };
 		9B63C01A1EFFA50B008C8DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B63C0241EFFA533008C8DEA /* RxInfinite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxInfinite.swift; sourceTree = "<group>"; };
+		DFD50087230798BE3097FE5E /* Pods-RxInfinite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxInfinite.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxInfinite/Pods-RxInfinite.release.xcconfig"; sourceTree = "<group>"; };
+		FB73B20E6DF1B98823B37E24 /* Pods-RxInfinite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxInfinite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxInfinite/Pods-RxInfinite.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159B884ECA9F72E40F4B04EA /* Pods_RxInfinite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC211CC8BE38A7D30ABDF53 /* Pods_RxInfiniteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63A2E5EE627E87770EF8266C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A4612F375405851E16FFDA /* Pods_RxInfinite.framework */,
+				5F6025AAA30AC511352D9542 /* Pods_RxInfiniteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B63BFF71EFFA50B008C8DEA = {
 			isa = PBXGroup;
 			children = (
 				9B63C0021EFFA50B008C8DEA /* RxInfinite */,
 				9B63C0171EFFA50B008C8DEA /* RxInfiniteUITests */,
 				9B63C0011EFFA50B008C8DEA /* Products */,
+				CE69A1CE6F3E2EC6BFDD060A /* Pods */,
+				63A2E5EE627E87770EF8266C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +100,7 @@
 		9B63C0021EFFA50B008C8DEA /* RxInfinite */ = {
 			isa = PBXGroup;
 			children = (
+				9B63C0231EFFA527008C8DEA /* RxInfinite */,
 				9B63C0031EFFA50B008C8DEA /* AppDelegate.swift */,
 				9B63C0051EFFA50B008C8DEA /* ViewController.swift */,
 				9B63C0071EFFA50B008C8DEA /* Main.storyboard */,
@@ -96,6 +120,25 @@
 			path = RxInfiniteUITests;
 			sourceTree = "<group>";
 		};
+		9B63C0231EFFA527008C8DEA /* RxInfinite */ = {
+			isa = PBXGroup;
+			children = (
+				9B63C0241EFFA533008C8DEA /* RxInfinite.swift */,
+			);
+			name = RxInfinite;
+			sourceTree = "<group>";
+		};
+		CE69A1CE6F3E2EC6BFDD060A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB73B20E6DF1B98823B37E24 /* Pods-RxInfinite.debug.xcconfig */,
+				DFD50087230798BE3097FE5E /* Pods-RxInfinite.release.xcconfig */,
+				7B8E76181E381BD96BBC36FF /* Pods-RxInfiniteUITests.debug.xcconfig */,
+				6EE5D5FEBBA94F48408E6FAC /* Pods-RxInfiniteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B63C01D1EFFA50B008C8DEA /* Build configuration list for PBXNativeTarget "RxInfinite" */;
 			buildPhases = (
+				26C31E01185BDF2B41552612 /* [CP] Check Pods Manifest.lock */,
 				9B63BFFC1EFFA50B008C8DEA /* Sources */,
 				9B63BFFD1EFFA50B008C8DEA /* Frameworks */,
 				9B63BFFE1EFFA50B008C8DEA /* Resources */,
+				4202916DBD75627E1875D4DD /* [CP] Embed Pods Frameworks */,
+				E5E4C84F609D504D7FB53075 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B63C0201EFFA50B008C8DEA /* Build configuration list for PBXNativeTarget "RxInfiniteUITests" */;
 			buildPhases = (
+				EAA0E5D8E85B345E6251FBA2 /* [CP] Check Pods Manifest.lock */,
 				9B63C0101EFFA50B008C8DEA /* Sources */,
 				9B63C0111EFFA50B008C8DEA /* Frameworks */,
 				9B63C0121EFFA50B008C8DEA /* Resources */,
+				301B92E0FECAC2E5783F8695 /* [CP] Embed Pods Frameworks */,
+				C477D57470CFAE3BBDDBF027 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,11 +243,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26C31E01185BDF2B41552612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		301B92E0FECAC2E5783F8695 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxInfiniteUITests/Pods-RxInfiniteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4202916DBD75627E1875D4DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxInfinite/Pods-RxInfinite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C477D57470CFAE3BBDDBF027 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxInfiniteUITests/Pods-RxInfiniteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E4C84F609D504D7FB53075 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxInfinite/Pods-RxInfinite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA0E5D8E85B345E6251FBA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B63BFFC1EFFA50B008C8DEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B63C0251EFFA533008C8DEA /* RxInfinite.swift in Sources */,
 				9B63C0061EFFA50B008C8DEA /* ViewController.swift in Sources */,
 				9B63C0041EFFA50B008C8DEA /* AppDelegate.swift in Sources */,
 			);
@@ -337,9 +480,12 @@
 		};
 		9B63C01E1EFFA50B008C8DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB73B20E6DF1B98823B37E24 /* Pods-RxInfinite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RxInfinite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.RxInfinite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,9 +495,12 @@
 		};
 		9B63C01F1EFFA50B008C8DEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD50087230798BE3097FE5E /* Pods-RxInfinite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RxInfinite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.RxInfinite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +510,7 @@
 		};
 		9B63C0211EFFA50B008C8DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B8E76181E381BD96BBC36FF /* Pods-RxInfiniteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RxInfiniteUITests/Info.plist;
@@ -374,6 +524,7 @@
 		};
 		9B63C0221EFFA50B008C8DEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE5D5FEBBA94F48408E6FAC /* Pods-RxInfiniteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RxInfiniteUITests/Info.plist;
@@ -404,6 +555,7 @@
 				9B63C01F1EFFA50B008C8DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B63C0201EFFA50B008C8DEA /* Build configuration list for PBXNativeTarget "RxInfiniteUITests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +564,7 @@
 				9B63C0221EFFA50B008C8DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

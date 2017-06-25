@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  RxInfinite
-//
-//  Created by Vingle on 2017. 6. 25..
-//  Copyright © 2017년 GeekTree0101. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
