@@ -2,6 +2,9 @@
 
 When you enter Error then Never Die, Protect your Observer during interaction
 
+## Sample Screen
+![](https://github.com/GeekTree0101/RxInfinite/blob/master/gif/RxInfinite.gif)
+
 ## Code Example
 
 Initialization RxInfinite
